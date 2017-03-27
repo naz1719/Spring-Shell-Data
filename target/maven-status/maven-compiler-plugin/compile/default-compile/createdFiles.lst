@@ -1,0 +1,6 @@
+org/shell/bostcrew/commands/MyBannerProvider.class
+org/shell/bostcrew/commands/MyHistoryFileNameProvider.class
+org/shell/bostcrew/Main.class
+org/shell/bostcrew/commands/HelloWorldCommands.class
+org/shell/bostcrew/commands/HelloWorldCommands$MessageType.class
+org/shell/bostcrew/commands/MyPromptProvider.class

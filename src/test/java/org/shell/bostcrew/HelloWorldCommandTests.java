@@ -1,5 +1,5 @@
 /*
- * Copyright 2011-2012 the original author or authors.
+ * Copyright 2013 the original author or authors.
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,27 +15,23 @@
  */
 package org.shell.bostcrew;
 
-import java.io.IOException;
-
-import org.springframework.context.annotation.ComponentScan;
+import org.junit.Test;
 import org.springframework.shell.Bootstrap;
+import org.springframework.shell.core.CommandResult;
+import org.springframework.shell.core.JLineShellComponent;
 
-/**
- * Driver class to run the helloworld example. 
- * 
- * @author Mark Pollack
- *
- */
-public class Main {
+import static org.junit.Assert.assertEquals;
 
-	/**
-	 * Main class that delegates to Spring Shell's Bootstrap class in order to simplify debugging inside an IDE
-	 * @param args
-	 * @throws IOException 
-	 */
-	public static void main(String[] args) throws IOException {
-		Bootstrap.main(args);
+public class HelloWorldCommandTests {
 
+	@Test
+	public void testSimple() {
+		Bootstrap bootstrap = new Bootstrap();
+		
+		JLineShellComponent shell = bootstrap.getJLineShellComponent();
+		
+		CommandResult cr = shell.executeCommand("hw simple --message hello");
+		assertEquals(true, cr.isSuccess());
+		assertEquals("Message = [hello] Location = [null]", cr.getResult());
 	}
-
 }

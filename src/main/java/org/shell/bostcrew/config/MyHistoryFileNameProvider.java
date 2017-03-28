@@ -13,30 +13,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.shell.bostcrew.commands;
+
+package org.shell.bostcrew.config;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
-import org.springframework.shell.plugin.support.DefaultPromptProvider;
+import org.springframework.shell.plugin.support.DefaultHistoryFileNameProvider;
 import org.springframework.stereotype.Component;
 
 /**
+ * 
  * @author Jarred Li
  *
  */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
-public class MyPromptProvider extends DefaultPromptProvider {
+public class MyHistoryFileNameProvider extends DefaultHistoryFileNameProvider {
 
-	@Override
-	public String getPrompt() {
-		return "hw-shell>";
+	public String getHistoryFileName() {
+		return "my.log";
 	}
 
-	
 	@Override
 	public String getProviderName() {
-		return "My prompt provider";
+		return "My history file name provider";
 	}
-
+	
 }

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.shell.bostcrew.commands;
+package org.shell.bostcrew.config;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -23,33 +23,33 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Jarred Li
- *
  */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
-public class MyBannerProvider extends DefaultBannerProvider  {
+public class MyBannerProvider extends DefaultBannerProvider {
 
-	public String getBanner() {
-		StringBuffer buf = new StringBuffer();
-		buf.append("=======================================" + OsUtils.LINE_SEPARATOR);
-		buf.append("*                                     *"+ OsUtils.LINE_SEPARATOR);
-		buf.append("*            HelloWorld               *" +OsUtils.LINE_SEPARATOR);
-		buf.append("*                                     *"+ OsUtils.LINE_SEPARATOR);
-		buf.append("=======================================" + OsUtils.LINE_SEPARATOR);
-		buf.append("Version:" + this.getVersion());
-		return buf.toString();
-	}
+    @Override
+    public String getBanner() {
+        StringBuffer buf = new StringBuffer();
+        buf.append("=======================================" + OsUtils.LINE_SEPARATOR);
+        buf.append("*                                     *" + OsUtils.LINE_SEPARATOR);
+        buf.append("*            Hello BotsCrew shell     *" + OsUtils.LINE_SEPARATOR);
+        buf.append("*                                     *" + OsUtils.LINE_SEPARATOR);
+        buf.append("=======================================" + OsUtils.LINE_SEPARATOR);
+        buf.append("Version:" + this.getVersion());
+        return buf.toString();
+    }
 
-	public String getVersion() {
-		return "1.2.3";
-	}
+    public String getVersion() {
+        return "1.2.3";
+    }
 
-	public String getWelcomeMessage() {
-		return "Welcome to HelloWorld CLI";
-	}
-	
-	@Override
-	public String getProviderName() {
-		return "Hello World Banner";
-	}
+    public String getWelcomeMessage() {
+        return "Welcome to HelloWorld CLI";
+    }
+
+    @Override
+    public String getProviderName() {
+        return "Hello World Banner";
+    }
 }

@@ -1,5 +1,9 @@
 org/shell/bostcrew/config/MyPromptProvider.class
 org/shell/bostcrew/config/MyHistoryFileNameProvider.class
+org/shell/bostcrew/core/AbstractDocument.class
+org/shell/bostcrew/models/Book.class
+org/shell/bostcrew/ApplicationConfig.class
+org/shell/bostcrew/repository/BookRepository.class
 org/shell/bostcrew/Main.class
 org/shell/bostcrew/commands/HelloWorldCommands.class
 org/shell/bostcrew/config/MyBannerProvider.class

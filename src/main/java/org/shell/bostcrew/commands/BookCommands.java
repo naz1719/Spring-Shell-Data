@@ -27,6 +27,12 @@ public class BookCommands implements CommandMarker {
     public void  list(){
         bookRepository.findAll(new Sort(Sort.Direction.ASC,"title")).forEach(System.out::println);
     }
+    @CliCommand(value = "book remove", help = "This option remove a book")
+    public String remove(
+            @CliOption(key = {"title"}, mandatory = true, help = "Title of book", specifiedDefaultValue = "Harry Potter") final String title) {
+        bookRepository.delete(bookRepository.findByTitle(title));
+        return "Book = [" + title + "] deleted ";
+    }
 
 
 }

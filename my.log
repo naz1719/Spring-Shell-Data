@@ -84,3 +84,15 @@ book add --title a
 book list
 book add --title c
 book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:40:53
+book list
+book remove --title c
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:45:52
+book list
+book remove --title c
+book list
+book remove --title n
+book list
+book remove --title potter
+book list

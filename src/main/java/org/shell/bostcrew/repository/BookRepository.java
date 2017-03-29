@@ -13,4 +13,5 @@ import java.util.List;
  */
 public interface BookRepository  extends PagingAndSortingRepository<Book, ObjectId> {
     List<Book> findByTitle(String title);
+    Book findByAuthor(String author);
 }

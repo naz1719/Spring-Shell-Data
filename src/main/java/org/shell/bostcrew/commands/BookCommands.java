@@ -36,10 +36,13 @@ public class BookCommands implements CommandMarker {
     }
     @CliCommand(value = "book edit", help = "This option edit a book")
     public String edit(
-            @CliOption(key = {"title"}, mandatory = true, help = "Title of book", specifiedDefaultValue = "Harry Potter") final String title,
-            @CliOption(key = {"author"}, mandatory = true, help = "Author of book", specifiedDefaultValue = "Harry Potter") final String author){
+            @CliOption(key = {"author"}, mandatory = true, help = "Author of book", specifiedDefaultValue = "Harry Potter") final String author,
+            @CliOption(key = {"newAuthor"}, mandatory = true, help = "Author of book", specifiedDefaultValue = "Harry Potter") final String newAuthor){
 
-        return "Book = [" + title + "] ["+author+"]";
+        Book book=bookRepository.findByAuthor(author);
+        book.setAuthor(newAuthor);
+        bookRepository.save(book);
+        return "Book = [" + newAuthor + "] ["+author+"]";
     }
 
 }

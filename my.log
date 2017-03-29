@@ -111,3 +111,24 @@ book list
 book list
 book remove --title vdf
 book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:32:21
+book list
+book remove --title vdf
+book list
+book remove --title vfd
+book list
+book add --title guy --author guy
+book add --title guy --author guy
+book list
+book remove --title guy
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:36:48
+book edit --author vfd --newAuthor vfd
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:38:10
+book list
+// [failed] book edit --author vfd --newAuthor vfd
+book add --title guy --author guy
+book edit --author guy --newAuthor g
+book list
+book list

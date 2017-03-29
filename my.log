@@ -96,3 +96,18 @@ book remove --title n
 book list
 book remove --title potter
 book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:02:12
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:06:05
+book list
+book remove --title Harry
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:09:54
+book list
+// [failed] book add --title vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:11:21
+book add --title vfd --author vfd
+book list
+book list
+book remove --title vdf
+book list

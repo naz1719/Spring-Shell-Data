@@ -9,19 +9,22 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "books")
 public class Book extends AbstractDocument {
     private String title;
-
-    private Book() {
-    }
+    private String author;
 
     @Override
     public String toString() {
         return "Book{" +
                 "title='" + title + '\'' +
+                ", author='" + author + '\'' +
                 '}';
     }
 
-    public Book(String title) {
+    private Book() {
+    }
+
+    public Book(String title, String author) {
         this.title = title;
+        this.author = author;
     }
 
     public String getTitle() {
@@ -30,5 +33,13 @@ public class Book extends AbstractDocument {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 }

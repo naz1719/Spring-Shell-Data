@@ -19,9 +19,10 @@ public class BookCommands implements CommandMarker {
 
     @CliCommand(value = "book add", help = "This option add book to database")
     public String add(
-            @CliOption(key = {"title"}, mandatory = true, help = "Title of book", specifiedDefaultValue = "Harry Potter") final String title) {
-        bookRepository.save(new Book(title));
-        return "Book = [" + title + "] ";
+            @CliOption(key = {"title"}, mandatory = true, help = "Title of book", specifiedDefaultValue = "Harry Potter") final String title,
+            @CliOption(key = {"author"}, mandatory = true, help = "Author of book", specifiedDefaultValue = "Harry Potter") final String author) {
+        bookRepository.save(new Book(title,author));
+        return "Book = [" + title + "] ["+author+"]";
     }
     @CliCommand(value = "book list", help = "This option show all books")
     public void  list(){
@@ -33,6 +34,12 @@ public class BookCommands implements CommandMarker {
         bookRepository.delete(bookRepository.findByTitle(title));
         return "Book = [" + title + "] deleted ";
     }
+    @CliCommand(value = "book edit", help = "This option edit a book")
+    public String edit(
+            @CliOption(key = {"title"}, mandatory = true, help = "Title of book", specifiedDefaultValue = "Harry Potter") final String title,
+            @CliOption(key = {"author"}, mandatory = true, help = "Author of book", specifiedDefaultValue = "Harry Potter") final String author){
 
+        return "Book = [" + title + "] ["+author+"]";
+    }
 
 }

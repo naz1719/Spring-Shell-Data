@@ -77,3 +77,10 @@ book list
 cls
 quit
 // Hello World Banner 1.2.0.M1 log closed at 2017-03-29 09:21:37
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:36:57
+book list
+book add --title b
+book add --title a
+book list
+book add --title c
+book list

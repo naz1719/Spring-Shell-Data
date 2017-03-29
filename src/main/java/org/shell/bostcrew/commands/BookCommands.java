@@ -3,6 +3,7 @@ package org.shell.bostcrew.commands;
 import org.shell.bostcrew.models.Book;
 import org.shell.bostcrew.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.shell.core.CommandMarker;
 import org.springframework.shell.core.annotation.CliCommand;
 import org.springframework.shell.core.annotation.CliOption;
@@ -24,7 +25,7 @@ public class BookCommands implements CommandMarker {
     }
     @CliCommand(value = "book list", help = "This option show all books")
     public void  list(){
-        bookRepository.findAll().forEach(System.out::println);
+        bookRepository.findAll(new Sort(Sort.Direction.ASC,"title")).forEach(System.out::println);
     }
 
 

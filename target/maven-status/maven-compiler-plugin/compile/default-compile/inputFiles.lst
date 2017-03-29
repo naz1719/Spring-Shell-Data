@@ -1,5 +1,9 @@
-/home/nazar/Documents/BostCrew/src/main/java/org/shell/bostcrew/commands/MyHistoryFileNameProvider.java
-/home/nazar/Documents/BostCrew/src/main/java/org/shell/bostcrew/commands/HelloWorldCommands.java
-/home/nazar/Documents/BostCrew/src/main/java/org/shell/bostcrew/Main.java
-/home/nazar/Documents/BostCrew/src/main/java/org/shell/bostcrew/commands/MyPromptProvider.java
-/home/nazar/Documents/BostCrew/src/main/java/org/shell/bostcrew/commands/MyBannerProvider.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/MyHistoryFileNameProvider.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/MyPromptProvider.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/core/AbstractDocument.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/ApplicationConfig.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/models/Book.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/Main.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/repository/BookRepository.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/MyBannerProvider.java
+/home/nazar/Documents/CLI-Data-Manager/src/main/java/org/shell/botscrew/commands/BookCommands.java

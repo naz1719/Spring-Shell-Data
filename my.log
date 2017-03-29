@@ -1,3 +1,158 @@
 // Hello World Banner 1.2.0.RELEASE log opened at 2017-03-27 21:36:29
 hw simple --message vf
 !
+// Hello World Banner 1.2.0.RELEASE log opened at 2017-03-28 18:48:01
+hw simple --message yo
+hw simple --message j
+// null 1.2.0.RELEASE log opened at 2017-03-28 18:54:02
+hw simple --message hello
+quit
+// Hello World Banner 1.2.0.RELEASE log closed at 2017-03-28 18:55:58
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:22:17
+hw simple --message vfd
+quit
+// Hello World Banner 1.2.0.M1 log closed at 2017-03-28 19:25:51
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:26:11
+hw simple --message vfd
+quit
+// Hello World Banner 1.2.0.M1 log closed at 2017-03-28 19:26:19
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:27:15
+hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:28:31
+hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:45:07
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:45:19
+hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 19:49:24
+help
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:16:30
+hw simple --message vfd
+// null 1.2.0.M1 log opened at 2017-03-28 20:17:10
+hw simple --message hello
+// null 1.2.0.M1 log opened at 2017-03-28 20:17:34
+hw simple --message hello
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:23:05
+hw simple --message hello
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:25:51
+hw simple --message hello
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:33:50
+hw simple --message hello
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:37:15
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:38:42
+hw simple --message hello
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:40:35
+hw simple --message hello
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:46:00
+hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:39:21
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:41:16
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:42:34
+hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:55:13
+book add --name Harry
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:57:40
+book add --name n
+hw simple --message j
+book add --name n
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:02:35
+book add --name j
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:04:30
+hw simple --message l
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:06:02
+book add --title n
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:10:51
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:15:45
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:18:25
+book list
+book add --title harry
+book add --title pootter
+book list
+cls
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:21:10
+book list
+book add --title jon
+book list
+cls
+quit
+// Hello World Banner 1.2.0.M1 log closed at 2017-03-29 09:21:37
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:36:57
+book list
+book add --title b
+book add --title a
+book list
+book add --title c
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:40:53
+book list
+book remove --title c
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:45:52
+book list
+book remove --title c
+book list
+book remove --title n
+book list
+book remove --title potter
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:02:12
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:06:05
+book list
+book remove --title Harry
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:09:54
+book list
+// [failed] book add --title vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:11:21
+book add --title vfd --author vfd
+book list
+book list
+book remove --title vdf
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:32:21
+book list
+book remove --title vdf
+book list
+book remove --title vfd
+book list
+book add --title guy --author guy
+book add --title guy --author guy
+book list
+book remove --title guy
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:36:48
+book edit --author vfd --newAuthor vfd
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:38:10
+book list
+// [failed] book edit --author vfd --newAuthor vfd
+book add --title guy --author guy
+book edit --author guy --newAuthor g
+book list
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:45:20
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:46:02
+book list
+book list
+book edit --author g --newAuthor guy
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:51:00
+book list
+date
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:52:22
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:52:46
+book list
+book add --title n --author vfd
+book list
+book remove --title n
+book list
+book edit --author guy --newAuthor g
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 12:59:26
+book list
+book edit --author g --newAuthor guy
+book list
+book add --author j --title a

@@ -9,13 +9,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class HelloWorldCommands implements CommandMarker {
 
-    @CliAvailabilityIndicator(value = "hw")
-    public boolean isPrintCommandAvailable()
-    {
-        return Boolean.TRUE;
-    }
-
-
     @CliCommand(value = "hw simple", help = "Print a simple hello world message")
     public String simple(
             @CliOption(key = {"message"}, mandatory = true, help = "The hello world message", specifiedDefaultValue = "At work")

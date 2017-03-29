@@ -44,3 +44,36 @@ hw simple --message hello
 hw simple --message hello
 // Hello World Banner 1.2.0.M1 log opened at 2017-03-28 20:46:00
 hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:39:21
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:41:16
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:42:34
+hw simple --message vfd
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:55:13
+book add --name Harry
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 08:57:40
+book add --name n
+hw simple --message j
+book add --name n
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:02:35
+book add --name j
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:04:30
+hw simple --message l
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:06:02
+book add --title n
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:10:51
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:15:45
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:18:25
+book list
+book add --title harry
+book add --title pootter
+book list
+cls
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-29 09:21:10
+book list
+book add --title jon
+book list
+cls
+quit
+// Hello World Banner 1.2.0.M1 log closed at 2017-03-29 09:21:37

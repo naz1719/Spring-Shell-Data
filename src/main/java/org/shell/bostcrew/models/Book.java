@@ -8,20 +8,27 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Document(collection = "books")
 public class Book extends AbstractDocument {
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    private String title;
 
     private Book() {
     }
 
-    public Book(String name) {
-        this.name = name;
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                '}';
+    }
+
+    public Book(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

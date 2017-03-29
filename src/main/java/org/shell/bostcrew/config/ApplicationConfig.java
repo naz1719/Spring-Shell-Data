@@ -1,4 +1,4 @@
-package org.shell.bostcrew;
+package org.shell.bostcrew.config;
 
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
  * Created by nazar on 28.03.17.
  */
 @Configuration
-@EnableMongoRepositories
+@EnableMongoRepositories(basePackages = "org.shell.bostcrew.repository")
 class ApplicationConfig extends AbstractMongoConfiguration {
 
     @Override

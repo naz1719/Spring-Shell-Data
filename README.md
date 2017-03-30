@@ -6,6 +6,7 @@
             book list    : return a list of all books ordered by name in asceding direction
             book edit --author 'J.K. Rownling' --newAuthor 'N.O. Khimin'             
             book remove --title 'Harry Potter'
+            ## Prerequisites![Peek 2017-03-30 11-14.gif]({{site.baseurl}}/Peek 2017-03-30 11-14.gif) 
  ## Prerequisites
  * Java 1.8
  * Maven >=3.3.9

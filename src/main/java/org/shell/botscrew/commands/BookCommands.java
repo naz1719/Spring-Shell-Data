@@ -28,7 +28,6 @@ public class BookCommands implements CommandMarker {
 
     @CliCommand(value = "book list", help = "This option show all books")
     public void list() {
-        System.out.println("List of books :");
         bookRepository.findAll(new Sort(Sort.Direction.ASC, "title")).forEach(System.out::println);
     }
 
@@ -48,6 +47,10 @@ public class BookCommands implements CommandMarker {
         book.setAuthor(newAuthor);
         bookRepository.save(book);
         return "Book = old author [" + author + "] new author [" + newAuthor + "]";
+    }
+    @CliCommand(value = "book deleteAll", help = "This option delete all books")
+    public void deleteAll(){
+        bookRepository.deleteAll();
     }
 
 }

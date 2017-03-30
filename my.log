@@ -156,3 +156,10 @@ book list
 book edit --author g --newAuthor guy
 book list
 book add --author j --title a
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 10:27:58
+book add --author "J.K. Rownling" --title "Harry Potter"
+book list
+book edit --author 'J.K. Rownling' --newAuthor 'N.O. Khimin'
+book list
+book remove --title 'Harry Potter'
+book list

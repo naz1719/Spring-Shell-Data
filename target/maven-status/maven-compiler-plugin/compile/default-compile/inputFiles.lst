@@ -1,9 +1,0 @@
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/core/AbstractDocument.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/repository/BookRepository.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/commands/BookCommands.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/models/Book.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/MyHistoryFileNameProvider.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/MyBannerProvider.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/Main.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/ApplicationConfig.java
-/home/nazar/IdeaProjects/CLI-Data-Manager/src/main/java/org/shell/botscrew/config/MyPromptProvider.java

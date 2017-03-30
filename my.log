@@ -163,3 +163,65 @@ book edit --author 'J.K. Rownling' --newAuthor 'N.O. Khimin'
 book list
 book remove --title 'Harry Potter'
 book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 10:41:55
+date
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 10:43:23
+date
+book add --title 'Harry Potter' --author 'J.K. Rowling'
+book list
+book edit --author 'J.K. Rowling' --newAuthor 'N.O. Khimin'
+book list
+book remove --title 'Harry Potter'
+book list
+book add --title 'Harry Potter' --author 'J.K. Rowling'
+book add --title 'Harry Potter1' --author 'J.K. Rowling'
+book list
+book deleteAll
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 11:00:18
+date
+book list
+book add --author 'J.K Rowling' --title 'Harru POtter'
+book list
+// [failed] book edit --author 'J.K. Rowling' --newAuthor 'N.O. Khimin'
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 11:09:34
+cls
+date
+book list
+book deleteAll
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 11:10:25
+cls
+date
+book list
+book list
+        book add --author 'J.K. Rownling' --title 'Harry Potter' 
+book list
+        book edit --author 'J.K. Rownling' --newAuthor 'N.O. Khimin'             
+book list
+book remove --title 'Harry Potter'
+book list
+        book add --author 'J.K. Rownling' --title 'Harry Potter' 
+book list
+book deleteAll
+book list
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 11:12:44
+cls
+date
+book list
+book list
+        book add --author 'J.K. Rownling' --title 'Harry Potter' 
+book list
+book edit --author 'J.K. Rownling' --newAuthor 'N.O. Khimin'
+book list
+book list
+book remove --title 'Harry Potter'
+book list
+        book add --author 'J.K. Rownling' --title 'Harry Potter' 
+        book add --author 'J.K. Rownling' --title 'Harry Potter1' 
+        book add --author 'J.K. Rownling' --title 'Harry Potter2' 
+book list
+book deleteAll
+book list
+quit
+// Hello World Banner 1.2.0.M1 log closed at 2017-03-30 11:13:55
+// Hello World Banner 1.2.0.M1 log opened at 2017-03-30 11:26:34

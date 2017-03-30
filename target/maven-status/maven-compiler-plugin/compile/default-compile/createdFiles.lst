@@ -1,9 +1,0 @@
-org/shell/botscrew/config/MyHistoryFileNameProvider.class
-org/shell/botscrew/core/AbstractDocument.class
-org/shell/botscrew/config/MyBannerProvider.class
-org/shell/botscrew/Main.class
-org/shell/botscrew/models/Book.class
-org/shell/botscrew/config/MyPromptProvider.class
-org/shell/botscrew/commands/BookCommands.class
-org/shell/botscrew/config/ApplicationConfig.class
-org/shell/botscrew/repository/BookRepository.class

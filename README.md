@@ -3,7 +3,7 @@
    library managing. Available such commands:
    
             book add --author 'J.K. Rownling' --title 'Harry Potter' 
-            book list    : return a list of all books ordered by name in asceding direction
+            book list    // return a list of all books ordered by name in asceding direction
             book edit --author 'J.K. Rownling' --newAuthor 'N.O. Khimin'             
             book remove --title 'Harry Potter'
  

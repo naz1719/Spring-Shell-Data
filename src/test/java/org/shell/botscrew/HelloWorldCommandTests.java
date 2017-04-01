@@ -16,6 +16,10 @@
 package org.shell.botscrew;
 
 import org.junit.Test;
+import org.shell.botscrew.models.Book;
+import org.shell.botscrew.repository.BookRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.shell.Bootstrap;
 import org.springframework.shell.core.CommandResult;
 import org.springframework.shell.core.JLineShellComponent;
@@ -24,14 +28,16 @@ import static org.junit.Assert.assertEquals;
 
 public class HelloWorldCommandTests {
 
+	@Autowired
+	BookRepository bookRepository;
 	@Test
-	public void testSimple() {
+	public void addBookShellTest() {
 		Bootstrap bootstrap = new Bootstrap();
 		
 		JLineShellComponent shell = bootstrap.getJLineShellComponent();
 		
-		CommandResult cr = shell.executeCommand("hw simple --message hello");
+		CommandResult cr = shell.executeCommand("book add --author 'J.K. Rownling' --title 'Harry Potter' ");
 		assertEquals(true, cr.isSuccess());
-		assertEquals("Message = [hello] Location = [null]", cr.getResult());
+		assertEquals("Book = [Harry Potter] [J.K. Rownling]", cr.getResult());
 	}
 }
